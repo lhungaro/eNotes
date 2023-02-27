@@ -1,0 +1,37 @@
+.resume-wrapper{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+h2{
+  font-size: 1.2rem;
+}
+
+.cards-container{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card{
+  border-radius:5px ;
+  height: 8rem;
+  width: 15rem;
+  background-color:#FFFFFF ;
+  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.1);
+}
+
+.right{
+  width: 80%;
+}
+
+.left{
+  width: 20%;
+}
